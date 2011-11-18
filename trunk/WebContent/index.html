@@ -64,6 +64,7 @@
 			color: #ccc;
 		}
 		.sep {
+			clear: both;
 			border-top: 1px dotted #ccc;
 			margin: 20px 10px;
 		}
@@ -126,7 +127,7 @@
 			font-weight: bold;
 			background-color: #EEE;
 		}
-		.adsense,.addthis_toolbox {
+		.adsense {
 			margin-left: 15px;
 		}
 		#loader {
@@ -423,36 +424,20 @@ Actual Functions to Apply Follow:
 				</tbody>
 			</table>
 
-			<div></div>
-
-			<table style="margin: 10px 0px 0px 20px">
-				<tr>
-				<td valign="middle" align="center">
-					<a target="_blank" class="retweet" href="http://twitter.com/home?status=100%25%20Javascript%20Quant%3A%20trend%20following%20algorithm%20example%20http%3A%2F%2Fjsquant.com"></a>
-				</td>
-				<td valign="middle" align="center">
-					<g:plusone size="medium"></g:plusone>
-					<script type="text/javascript">
-					  (function() {
-					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-					    po.src = 'https://apis.google.com/js/plusone.js';
-					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-					  })();
+			<div>
+				<div style="float:left; margin: 10px;">
+					<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
 					</script>
-				</td>
-				<td valign="middle" align="center">
-					<div id="fb-root"></div>
-					<script>(function(d, s, id) {
-					  var js, fjs = d.getElementsByTagName(s)[0];
-					  if (d.getElementById(id)) {return;}
-					  js = d.createElement(s); js.id = id;
-					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-					  fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));</script>
-					<div class="fb-like" data-href="http://jsquant.com" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div>
-				</td>
-				</tr>
-			</table>
+					<g:plusone size="medium" count="true"></g:plusone>
+				</div>
+				<div style="float:left; margin: 10px;">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				</div>
+				<div style="float:left; margin: 10px;">
+					<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fjsquant.com&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none;overflow:hidden; width:100px; height:35px;" allowTransparency="true">
+					</iframe>
+				</div>
+			</div>
 
 			<div class="sep"></div>
 
