@@ -1,0 +1,3 @@
+[JsQuant.com](http://jsquant.com) is a Javascript stock trend following algorithm simulation example site built using [Dojo](http://dojotoolkit.org), [Flot Charts](http://code.google.com/p/flot/) and [Yahoo Finance](http://developer.yahoo.com/finance/) data.
+
+Using [YQL](http://developer.yahoo.com/yql/) for cross-domain access to the Yahoo Finance CSV data, the entire site can run as local static HTML/Javascript.
